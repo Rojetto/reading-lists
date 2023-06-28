@@ -1,3 +1,6 @@
 django_cache/
 
 **/__pycache__
+
+.frontend.env
+.backend.env
