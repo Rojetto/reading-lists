@@ -12,6 +12,7 @@ RUN npm ci
 
 # Build the application
 RUN npm run build
+RUN npm run generate
 
 # Start the application
 CMD [ "npm", "run", "start" ]
